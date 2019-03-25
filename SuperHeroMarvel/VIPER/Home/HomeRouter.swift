@@ -11,13 +11,13 @@ import UIKit
 
 protocol HomeRouterProtocol: AnyObject {
     
-    func presentDetailView()
+    func presentDetailView(dto: HeroDetailAssemblyDTO)
 }
 
 final class HomeRouter: BaseRouter<HomePresenterProtocol, HomeView>, HomeRouterProtocol {
     
     // MARK: Internal functions declaration of all functions and protocol variables
-    internal func presentDetailView() {
-        
+    internal func presentDetailView(dto: HeroDetailAssemblyDTO) {
+        self.view?.navigationController?.pushViewController(HeroDetailAssembly.heroDetailPresenterView(heroDetailAssemblyDTO: dto), animated: true)
     }
 }

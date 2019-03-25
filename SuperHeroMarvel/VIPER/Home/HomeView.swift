@@ -64,7 +64,11 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 260
+        return 144
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.presenter?.goToDetailHero(index: indexPath.row)
     }
 }
 
@@ -106,8 +110,7 @@ extension HomeView: BaseNavigationBarDelegate {
     }
     
     func rightButtonAction() {
-        // No se requiere funcionamiento
-        print("Funcionalidad en desarrollo.......")
+
     }
     
 }

@@ -10,6 +10,7 @@ import Foundation
 
 public enum XibFile: String {
     case homeView = "HomeView"
+    case heroDetailView = "HeroDetailView"
 }
 
 public enum Environement: Int {

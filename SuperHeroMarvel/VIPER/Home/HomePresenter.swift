@@ -14,6 +14,7 @@ protocol HomePresenterProtocol: AnyObject {
     var homeAssemblyDTO: HomeAssemblyDTO? { get set }
     var modelHeroes: [SuperHero] { get set }
     func getHomeData()
+    func goToDetailHero(index: Int)
 }
 
 final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInteractorProtocol>, HomePresenterProtocol {
@@ -24,6 +25,10 @@ final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInter
     // MARK: Internal functions declaration of all functions and protocol variables
     internal func getHomeData() {
         self.getHomeDataAction()
+    }
+    
+    internal func goToDetailHero(index: Int) {
+        self.goToDetailHeroAction(index: index)
     }
     
     // MARK: Fileprivate functions declaration of all functions that return something to the protocol or perform an activity that should not be exposed
@@ -50,5 +55,11 @@ final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInter
         self.modelHeroes = listSuperHeroes
         self.view?.reloadView()
         
+    }
+    
+    fileprivate func goToDetailHeroAction(index: Int) {
+        let dto = HeroDetailAssemblyDTO(superHero: self.modelHeroes[index])
+        
+        self.router?.presentDetailView(dto: dto)
     }
 }
