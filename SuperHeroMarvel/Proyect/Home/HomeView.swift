@@ -71,6 +71,8 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.searchTextField.resignFirstResponder()
+
         guard let hero = self.presenter?.tableModel[indexPath.row] else { return }
         self.presenter?.goToDetailHero(hero: hero)
     }
