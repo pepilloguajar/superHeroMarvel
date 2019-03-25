@@ -17,3 +17,5 @@
 
 "error" = "Error";
 "error_message" = "Sorry, an error occurred while getting the data";
+
+"search_placeholder" = "Filter by name or real name";

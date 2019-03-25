@@ -12,23 +12,29 @@ import UIKit
 protocol HomePresenterProtocol: AnyObject {
     
     var homeAssemblyDTO: HomeAssemblyDTO? { get set }
-    var modelHeroes: [SuperHero] { get set }
+    var tableModel: [SuperHero] { get set }
     func getHomeData()
-    func goToDetailHero(index: Int)
+    func goToDetailHero(hero: SuperHero)
+    func filterModel(text: String)
 }
 
 final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInteractorProtocol>, HomePresenterProtocol {
     
     var homeAssemblyDTO: HomeAssemblyDTO?
     var modelHeroes: [SuperHero] = []
+    var tableModel: [SuperHero] = []
     
     // MARK: Internal functions declaration of all functions and protocol variables
     internal func getHomeData() {
         self.getHomeDataAction()
     }
     
-    internal func goToDetailHero(index: Int) {
-        self.goToDetailHeroAction(index: index)
+    internal func goToDetailHero(hero: SuperHero) {
+        self.goToDetailHeroAction(hero: hero)
+    }
+    
+    internal func filterModel(text: String) {
+        self.filterModelAction(text: text)
     }
     
     // MARK: Fileprivate functions declaration of all functions that return something to the protocol or perform an activity that should not be exposed
@@ -53,13 +59,21 @@ final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInter
         }
         
         self.modelHeroes = listSuperHeroes
+        self.tableModel = listSuperHeroes
         self.view?.reloadView()
         
     }
     
-    fileprivate func goToDetailHeroAction(index: Int) {
-        let dto = HeroDetailAssemblyDTO(superHero: self.modelHeroes[index])
+    fileprivate func goToDetailHeroAction(hero: SuperHero) {
+        let dto = HeroDetailAssemblyDTO(superHero: hero)
         
         self.router?.presentDetailView(dto: dto)
+    }
+    
+    fileprivate func filterModelAction(text: String) {
+        self.tableModel = text.isEmpty ? modelHeroes
+                : self.modelHeroes.filter{ ($0.name?.lowercased().contains(text.lowercased()) ?? false) || ($0.realName?.lowercased().contains(text.lowercased()) ?? false) }
+
+        self.view?.reloadView()
     }
 }

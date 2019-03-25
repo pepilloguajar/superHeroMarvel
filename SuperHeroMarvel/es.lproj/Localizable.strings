@@ -17,3 +17,5 @@
 
 "error" = "Error";
 "error_message" = "Lo sentimos, ha ocurrido un error al obtener los datos";
+
+"search_placeholder" = "Filtra por nomre o nombre real";

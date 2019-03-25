@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeView">
             <connections>
                 <outlet property="navigationBar" destination="sof-NV-2it" id="iTO-If-M2N"/>
+                <outlet property="searchTextField" destination="Xhf-FC-DwA" id="ynp-ll-pOd"/>
                 <outlet property="tableViewHero" destination="SqZ-HY-gqD" id="R3W-Ge-U7k"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="x4H-ry-a8n"/>
             </connections>
@@ -30,21 +31,43 @@
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SqZ-HY-gqD">
-                    <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                    <rect key="frame" x="0.0" y="134" width="375" height="678"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwQ-9l-zCw">
+                    <rect key="frame" x="0.0" y="88" width="375" height="46"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Xhf-FC-DwA">
+                            <rect key="frame" x="16" y="8" width="343" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Xhf-FC-DwA" secondAttribute="bottom" constant="8" id="T9E-0J-hBc"/>
+                        <constraint firstItem="Xhf-FC-DwA" firstAttribute="leading" secondItem="mwQ-9l-zCw" secondAttribute="leading" constant="16" id="Uax-mh-dbU"/>
+                        <constraint firstItem="Xhf-FC-DwA" firstAttribute="top" secondItem="mwQ-9l-zCw" secondAttribute="top" constant="8" id="e9u-c1-MiP"/>
+                        <constraint firstAttribute="trailing" secondItem="Xhf-FC-DwA" secondAttribute="trailing" constant="16" id="mMS-2P-OM4"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="SqZ-HY-gqD" firstAttribute="top" secondItem="sof-NV-2it" secondAttribute="bottom" id="SfP-h5-T8Z"/>
+                <constraint firstItem="SqZ-HY-gqD" firstAttribute="top" secondItem="mwQ-9l-zCw" secondAttribute="bottom" id="Khs-tP-czp"/>
+                <constraint firstItem="mwQ-9l-zCw" firstAttribute="top" secondItem="sof-NV-2it" secondAttribute="bottom" id="Lvs-M3-7en"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SqZ-HY-gqD" secondAttribute="trailing" id="VCL-4V-KnO"/>
+                <constraint firstItem="mwQ-9l-zCw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XZN-sG-wY7"/>
                 <constraint firstItem="sof-NV-2it" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="aWj-D7-2KA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mwQ-9l-zCw" secondAttribute="trailing" id="iTw-W5-4Vq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sof-NV-2it" secondAttribute="trailing" id="jMB-mE-cz7"/>
                 <constraint firstItem="SqZ-HY-gqD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="spH-IG-MyO"/>
                 <constraint firstItem="sof-NV-2it" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u7v-4q-1FQ"/>
                 <constraint firstAttribute="bottom" secondItem="SqZ-HY-gqD" secondAttribute="bottom" id="xWQ-O6-V5U"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="55.200000000000003" y="39.90147783251232"/>
         </view>
     </objects>
 </document>

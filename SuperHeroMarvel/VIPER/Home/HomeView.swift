@@ -9,10 +9,11 @@
 import Foundation
 import UIKit
 
-class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableViewDataSource {
+class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     // MARK: IBOutlets declaration of all controls
     @IBOutlet weak var navigationBar: BaseNavigationBar!
     @IBOutlet weak var tableViewHero: UITableView!
+    @IBOutlet weak var searchTextField: UITextField!
     
     // MARK: UIViewController Functions
     override func viewDidLoad() {
@@ -22,6 +23,8 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
         self.tableViewHero.delegate = self
         self.tableViewHero.dataSource = self
         self.tableViewHero.register(UINib(nibName: "SuperHeroTableViewCell", bundle: nil), forCellReuseIdentifier: "SuperHeroTableViewCell")
+        
+        self.searchTextField.delegate = self
     }
 
     // MARK: Private Functions
@@ -49,14 +52,14 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.presenter?.modelHeroes.count ?? 0
+        return self.presenter?.tableModel.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = self.tableViewHero.dequeueReusableCell(withIdentifier: "SuperHeroTableViewCell", for: indexPath) as? SuperHeroTableViewCell ?? SuperHeroTableViewCell()
         
-        guard let modelRow = self.presenter?.modelHeroes[indexPath.row] else { return cell }
+        guard let modelRow = self.presenter?.tableModel[indexPath.row] else { return cell }
         
         cell.configureCell(superHero: modelRow)
         
@@ -68,15 +71,27 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.presenter?.goToDetailHero(index: indexPath.row)
+        guard let hero = self.presenter?.tableModel[indexPath.row] else { return }
+        self.presenter?.goToDetailHero(hero: hero)
     }
+    
+    // MARK: TextField delegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.searchTextField.resignFirstResponder()
+        return true
+    }
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.presenter?.filterModel(text: textField.text ?? "")
+    }
+    
+
 }
 
 // MARK: Extensions declaration of all extension and implementations of protocols
 extension HomeView: BaseViewControllerViewDidLoadProtocol {
     
     func i18N() {
-        
+        self.searchTextField.placeholder = "search_placeholder".localized
     }
     
     func initializeGUI() {
