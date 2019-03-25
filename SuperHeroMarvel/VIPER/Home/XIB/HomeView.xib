@@ -23,14 +23,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sof-NV-2it" customClass="BaseNavigationBar" customModule="SuperHeroMarvel" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="44" width="375" height="64"/>
+                    <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="64" id="itc-rv-aql"/>
+                        <constraint firstAttribute="height" constant="44" id="itc-rv-aql"/>
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SqZ-HY-gqD">
-                    <rect key="frame" x="0.0" y="108" width="375" height="704"/>
+                    <rect key="frame" x="0.0" y="88" width="375" height="724"/>
                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </tableView>
             </subviews>

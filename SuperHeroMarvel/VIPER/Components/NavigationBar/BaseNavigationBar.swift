@@ -90,7 +90,7 @@ class BaseNavigationBar: UIView {
         case .back:
             
             leftButton.isHidden = false
-            leftButton.setImage(UIImage(named: "ico_close"), for: .normal)
+            leftButton.setImage(UIImage(named: "ico_arrow_back"), for: .normal)
             
         default:
             
