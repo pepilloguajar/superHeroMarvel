@@ -11,7 +11,7 @@ import UIKit
 
 //Class that represents the model that should be used in the  view of Home
 class HomeModel {
-    var idHome: String?
+    var superheroes: [SuperHero]?
     init() {}
 
 }
@@ -20,6 +20,6 @@ class HomeModel {
 extension HomeModel {
     convenience init(homeModelEntity: HomeModelEntity) {
         self.init()
-        self.idHome = homeModelEntity.idHome
+        self.superheroes = homeModelEntity.superheroes?.map{ SuperHero(superHeroEntity: $0) }
     }
 }

@@ -89,6 +89,10 @@
 		032067AF2248F012004D6AB6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067AD2248F011004D6AB6 /* Date+Extension.swift */; };
 		032067B12248F04A004D6AB6 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B02248F04A004D6AB6 /* NSObject+Extension.swift */; };
 		032067B22248F04A004D6AB6 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B02248F04A004D6AB6 /* NSObject+Extension.swift */; };
+		032067B42248F1ED004D6AB6 /* SuperHeroEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */; };
+		032067B52248F1ED004D6AB6 /* SuperHeroEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */; };
+		032067B72248F20C004D6AB6 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B62248F20C004D6AB6 /* SuperHero.swift */; };
+		032067B82248F20C004D6AB6 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B62248F20C004D6AB6 /* SuperHero.swift */; };
 		0345C6AF2248D8D1006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
 		0345C6B12248D8D1006C739F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6B02248D8D1006C739F /* Foundation.framework */; };
 		0345C6C42248DA8A006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
@@ -139,6 +143,8 @@
 		032067AA2248EE4A004D6AB6 /* DefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultManager.swift; sourceTree = "<group>"; };
 		032067AD2248F011004D6AB6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		032067B02248F04A004D6AB6 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroEntity.swift; sourceTree = "<group>"; };
+		032067B62248F20C004D6AB6 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 		0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345C6AE2248D8D1006C739F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0345C6B02248D8D1006C739F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -296,6 +302,7 @@
 		032067862248E242004D6AB6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				032067B92248F8C1004D6AB6 /* Cell */,
 				0320678A2248E242004D6AB6 /* HomeAssembly.swift */,
 				0320678C2248E242004D6AB6 /* HomeProvider.swift */,
 				0320678B2248E242004D6AB6 /* HomeInteractor.swift */,
@@ -322,8 +329,17 @@
 			children = (
 				0320678F2248E242004D6AB6 /* HomeModelEntity.swift */,
 				032067902248E242004D6AB6 /* HomeModel.swift */,
+				032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */,
+				032067B62248F20C004D6AB6 /* SuperHero.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		032067B92248F8C1004D6AB6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		0345C6A22248D8D1006C739F = {
@@ -624,6 +640,7 @@
 			files = (
 				0320674E2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */,
 				032067602248DBAD004D6AB6 /* BasePresenter.swift in Sources */,
+				032067B72248F20C004D6AB6 /* SuperHero.swift in Sources */,
 				0320679D2248E243004D6AB6 /* HomeView.swift in Sources */,
 				032067AB2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
 				032067A12248E243004D6AB6 /* HomeModel.swift in Sources */,
@@ -632,6 +649,7 @@
 				032067522248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
 				032067462248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */,
 				032067A32248E243004D6AB6 /* HomeRouter.swift in Sources */,
+				032067B42248F1ED004D6AB6 /* SuperHeroEntity.swift in Sources */,
 				032067A52248E243004D6AB6 /* HomePresenter.swift in Sources */,
 				0320675A2248DBAD004D6AB6 /* BaseViewController.swift in Sources */,
 				032067972248E243004D6AB6 /* HomeAssembly.swift in Sources */,
@@ -662,6 +680,7 @@
 			files = (
 				0320674F2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */,
 				032067612248DBAD004D6AB6 /* BasePresenter.swift in Sources */,
+				032067B82248F20C004D6AB6 /* SuperHero.swift in Sources */,
 				032067452248DBAD004D6AB6 /* UIView+Extension.swift in Sources */,
 				032067AC2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
 				0320679C2248E243004D6AB6 /* HomeProvider.swift in Sources */,
@@ -670,6 +689,7 @@
 				032067532248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
 				032067822248E07A004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */,
 				032067472248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */,
+				032067B52248F1ED004D6AB6 /* SuperHeroEntity.swift in Sources */,
 				0320675B2248DBAD004D6AB6 /* BaseViewController.swift in Sources */,
 				0320679E2248E243004D6AB6 /* HomeView.swift in Sources */,
 				032067A02248E243004D6AB6 /* HomeModelEntity.swift in Sources */,

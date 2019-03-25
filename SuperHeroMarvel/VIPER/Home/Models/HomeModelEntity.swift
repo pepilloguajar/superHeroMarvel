@@ -11,5 +11,5 @@ import UIKit
 
 //Struct that represents the data of the models of a class Home
 struct HomeModelEntity: Codable {
-    let idHome: String?
+    let superheroes: [SuperHeroEntity]?
 }
