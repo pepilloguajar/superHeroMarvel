@@ -48,7 +48,7 @@ final class HomePresenter: BasePresenter<HomeView, HomeRouterProtocol, HomeInter
     fileprivate func getHomeServiceLoaded(homeModel: HomeModel? = nil) {
         
         guard let listSuperHeroes = homeModel?.superheroes else {
-            self.view?.showAlertWithError(title: "Error", message: "Ha ocurrido un error al descargar los datos", actions: nil)
+            self.view?.showAlertWithError(title: "error".localized, message: "error_message", actions: nil)
             return
         }
         

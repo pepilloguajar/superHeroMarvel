@@ -115,6 +115,8 @@
 		032067DE22490FD1004D6AB6 /* HeroDetailModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067CD22490FD0004D6AB6 /* HeroDetailModelEntity.swift */; };
 		032067DF22490FD1004D6AB6 /* HeroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067CE22490FD0004D6AB6 /* HeroDetailPresenter.swift */; };
 		032067E022490FD1004D6AB6 /* HeroDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067CE22490FD0004D6AB6 /* HeroDetailPresenter.swift */; };
+		032067E5224942B5004D6AB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032067E8224942B5004D6AB6 /* Localizable.strings */; };
+		032067E6224942B5004D6AB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032067E8224942B5004D6AB6 /* Localizable.strings */; };
 		0345C6AF2248D8D1006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
 		0345C6B12248D8D1006C739F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6B02248D8D1006C739F /* Foundation.framework */; };
 		0345C6C42248DA8A006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
@@ -178,6 +180,9 @@
 		032067CC22490FD0004D6AB6 /* HeroDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailModel.swift; sourceTree = "<group>"; };
 		032067CD22490FD0004D6AB6 /* HeroDetailModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailModelEntity.swift; sourceTree = "<group>"; };
 		032067CE22490FD0004D6AB6 /* HeroDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDetailPresenter.swift; sourceTree = "<group>"; };
+		032067E122494275004D6AB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		032067E7224942B5004D6AB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		032067E9224942B9004D6AB6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345C6AE2248D8D1006C739F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0345C6B02248D8D1006C739F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -225,6 +230,7 @@
 				0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */,
 				0320670C2248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist */,
 				032067202248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist */,
+				032067E8224942B5004D6AB6 /* Localizable.strings */,
 			);
 			path = SuperHeroMarvel;
 			sourceTree = "<group>";
@@ -521,6 +527,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 0345C6A22248D8D1006C739F;
 			productRefGroup = 0345C6AC2248D8D1006C739F /* Products */;
@@ -541,6 +548,7 @@
 				032067092248DBA0004D6AB6 /* Podfile in Resources */,
 				032067952248E243004D6AB6 /* HomeView_iPad.xib in Resources */,
 				032067342248DBAD004D6AB6 /* Assets.xcassets in Resources */,
+				032067E5224942B5004D6AB6 /* Localizable.strings in Resources */,
 				032067932248E243004D6AB6 /* HomeView.xib in Resources */,
 				032067802248E06F004D6AB6 /* loader.json in Resources */,
 				032067BE2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */,
@@ -561,6 +569,7 @@
 				032067A92248E85C004D6AB6 /* BaseNavigationBar.xib in Resources */,
 				032067942248E243004D6AB6 /* HomeView.xib in Resources */,
 				032067812248E072004D6AB6 /* loader.json in Resources */,
+				032067E6224942B5004D6AB6 /* Localizable.strings in Resources */,
 				0320670A2248DBA0004D6AB6 /* Podfile in Resources */,
 				032067962248E243004D6AB6 /* HomeView_iPad.xib in Resources */,
 				032067BF2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */,
@@ -811,8 +820,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				032067102248DBAD004D6AB6 /* Base */,
+				032067E122494275004D6AB6 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		032067E8224942B5004D6AB6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032067E7224942B5004D6AB6 /* en */,
+				032067E9224942B9004D6AB6 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -822,6 +841,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -883,6 +903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

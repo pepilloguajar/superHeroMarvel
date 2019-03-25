@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  SuperHeroMarvel
+
+  Created by JJ Montes on 25/03/2019.
+  Copyright © 2019 jjmontes. All rights reserved.
+*/
+
+"real_name" = "Real name";
+"height" = "Height";
+"power" = "Power";
+"abilities" = "Abilities";
+"groups" = "Groups";
+
+"super_hero" = "Super Hero Marvel";
+"super_hero_details" = "Super Hero Details";
+
+"error" = "Error";
+"error_message" = "Sorry, an error occurred while getting the data";

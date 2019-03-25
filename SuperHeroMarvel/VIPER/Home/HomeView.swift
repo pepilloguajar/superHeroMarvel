@@ -28,7 +28,7 @@ class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableVie
     
     // Configuramos la navigation bar
     func customizeNavigationBar() {
-        self.navigationBar.viewModel = BaseNavigationBarModel(title: "Super Hero Marvel",
+        self.navigationBar.viewModel = BaseNavigationBarModel(title:  "super_hero".localized,
                                                               leftButton: .none,
                                                               rightButton: .none,
                                                               showViewBottomLine: true,

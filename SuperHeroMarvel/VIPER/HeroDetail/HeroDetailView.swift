@@ -48,7 +48,7 @@ class HeroDetailView: BaseView<HeroDetailPresenterProtocol> {
     // MARK: Private Functions
     // Configuramos la navigation bar
     func customizeNavigationBar() {
-        self.navigationBar.viewModel = BaseNavigationBarModel(title: "Hero detail",
+        self.navigationBar.viewModel = BaseNavigationBarModel(title: "super_hero_details".localized,
                                                               leftButton: .back,
                                                               rightButton: .none,
                                                               showViewBottomLine: false,
@@ -67,8 +67,14 @@ extension HeroDetailView: BaseViewControllerViewDidLoadProtocol {
     }
     
     func initializeGUI() {
-
+        self.realNameLabel.text = "real_name".localized
+        self.heightLabel.text = "height".localized
+        self.powerLabel.text = "power".localized
+        self.abilitiesLabel.text = "abilities".localized
+        self.groupsLabel.text = "groups".localized
+        
     }
+
 }
 
 extension HeroDetailView: BaseViewControllerViewWillAppearProtocol {
