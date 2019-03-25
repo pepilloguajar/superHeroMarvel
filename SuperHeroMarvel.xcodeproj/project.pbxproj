@@ -7,21 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032067092248DBA0004D6AB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 032067082248DBA0004D6AB6 /* Podfile */; };
+		0320670A2248DBA0004D6AB6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 032067082248DBA0004D6AB6 /* Podfile */; };
+		032067302248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0320670C2248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist */; };
+		032067312248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0320670C2248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist */; };
+		032067342248DBAD004D6AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0320670E2248DBAD004D6AB6 /* Assets.xcassets */; };
+		032067352248DBAD004D6AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0320670E2248DBAD004D6AB6 /* Assets.xcassets */; };
+		032067362248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */; };
+		032067372248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */; };
+		032067382248DBAD004D6AB6 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067122248DBAD004D6AB6 /* UIApplication+Extension.swift */; };
+		032067392248DBAD004D6AB6 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067122248DBAD004D6AB6 /* UIApplication+Extension.swift */; };
+		0320673A2248DBAD004D6AB6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067132248DBAD004D6AB6 /* UIImageView+Extension.swift */; };
+		0320673B2248DBAD004D6AB6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067132248DBAD004D6AB6 /* UIImageView+Extension.swift */; };
+		032067442248DBAD004D6AB6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067182248DBAD004D6AB6 /* UIView+Extension.swift */; };
+		032067452248DBAD004D6AB6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067182248DBAD004D6AB6 /* UIView+Extension.swift */; };
+		032067462248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067192248DBAD004D6AB6 /* UIImage+Extension.swift */; };
+		032067472248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067192248DBAD004D6AB6 /* UIImage+Extension.swift */; };
+		032067482248DBAD004D6AB6 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671A2248DBAD004D6AB6 /* UINavigationController+Extension.swift */; };
+		032067492248DBAD004D6AB6 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671A2248DBAD004D6AB6 /* UINavigationController+Extension.swift */; };
+		0320674E2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671D2248DBAD004D6AB6 /* UIViewController+Extension.swift */; };
+		0320674F2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671D2248DBAD004D6AB6 /* UIViewController+Extension.swift */; };
+		032067502248DBAD004D6AB6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671E2248DBAD004D6AB6 /* String+Extension.swift */; };
+		032067512248DBAD004D6AB6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671E2248DBAD004D6AB6 /* String+Extension.swift */; };
+		032067522248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671F2248DBAD004D6AB6 /* UINavigationBar+Extension.swift */; };
+		032067532248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320671F2248DBAD004D6AB6 /* UINavigationBar+Extension.swift */; };
+		032067542248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 032067202248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist */; };
+		032067552248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 032067202248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist */; };
+		032067562248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067232248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift */; };
+		032067572248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067232248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift */; };
+		032067582248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067252248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift */; };
+		032067592248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067252248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift */; };
+		0320675A2248DBAD004D6AB6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067272248DBAD004D6AB6 /* BaseViewController.swift */; };
+		0320675B2248DBAD004D6AB6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067272248DBAD004D6AB6 /* BaseViewController.swift */; };
+		0320675C2248DBAD004D6AB6 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067282248DBAD004D6AB6 /* BaseInteractor.swift */; };
+		0320675D2248DBAD004D6AB6 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067282248DBAD004D6AB6 /* BaseInteractor.swift */; };
+		0320675E2248DBAD004D6AB6 /* BaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067292248DBAD004D6AB6 /* BaseAssembly.swift */; };
+		0320675F2248DBAD004D6AB6 /* BaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067292248DBAD004D6AB6 /* BaseAssembly.swift */; };
+		032067602248DBAD004D6AB6 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672A2248DBAD004D6AB6 /* BasePresenter.swift */; };
+		032067612248DBAD004D6AB6 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672A2248DBAD004D6AB6 /* BasePresenter.swift */; };
+		032067622248DBAD004D6AB6 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672B2248DBAD004D6AB6 /* BaseRouter.swift */; };
+		032067632248DBAD004D6AB6 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672B2248DBAD004D6AB6 /* BaseRouter.swift */; };
+		032067642248DBAD004D6AB6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672C2248DBAD004D6AB6 /* BaseView.swift */; };
+		032067652248DBAD004D6AB6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672C2248DBAD004D6AB6 /* BaseView.swift */; };
+		032067682248DBAD004D6AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672E2248DBAD004D6AB6 /* AppDelegate.swift */; };
+		032067692248DBAD004D6AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320672E2248DBAD004D6AB6 /* AppDelegate.swift */; };
+		0320676D2248DD8D004D6AB6 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320676C2248DD8D004D6AB6 /* BaseProvider.swift */; };
+		0320676E2248DD8D004D6AB6 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320676C2248DD8D004D6AB6 /* BaseProvider.swift */; };
+		032067792248DFF5004D6AB6 /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067742248DFF5004D6AB6 /* BaseNavigationBar.swift */; };
+		0320677A2248DFF5004D6AB6 /* BaseNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067752248DFF5004D6AB6 /* BaseNavigationBar.xib */; };
+		0320677B2248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067772248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib */; };
+		0320677C2248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067782248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift */; };
+		032067802248E06F004D6AB6 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 0320677F2248E06F004D6AB6 /* loader.json */; };
+		032067812248E072004D6AB6 /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 0320677F2248E06F004D6AB6 /* loader.json */; };
+		032067822248E07A004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067782248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift */; };
+		032067932248E243004D6AB6 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067882248E242004D6AB6 /* HomeView.xib */; };
+		032067942248E243004D6AB6 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067882248E242004D6AB6 /* HomeView.xib */; };
+		032067952248E243004D6AB6 /* HomeView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067892248E242004D6AB6 /* HomeView_iPad.xib */; };
+		032067962248E243004D6AB6 /* HomeView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067892248E242004D6AB6 /* HomeView_iPad.xib */; };
+		032067972248E243004D6AB6 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678A2248E242004D6AB6 /* HomeAssembly.swift */; };
+		032067982248E243004D6AB6 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678A2248E242004D6AB6 /* HomeAssembly.swift */; };
+		032067992248E243004D6AB6 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678B2248E242004D6AB6 /* HomeInteractor.swift */; };
+		0320679A2248E243004D6AB6 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678B2248E242004D6AB6 /* HomeInteractor.swift */; };
+		0320679B2248E243004D6AB6 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678C2248E242004D6AB6 /* HomeProvider.swift */; };
+		0320679C2248E243004D6AB6 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678C2248E242004D6AB6 /* HomeProvider.swift */; };
+		0320679D2248E243004D6AB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678D2248E242004D6AB6 /* HomeView.swift */; };
+		0320679E2248E243004D6AB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678D2248E242004D6AB6 /* HomeView.swift */; };
+		0320679F2248E243004D6AB6 /* HomeModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678F2248E242004D6AB6 /* HomeModelEntity.swift */; };
+		032067A02248E243004D6AB6 /* HomeModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0320678F2248E242004D6AB6 /* HomeModelEntity.swift */; };
+		032067A12248E243004D6AB6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067902248E242004D6AB6 /* HomeModel.swift */; };
+		032067A22248E243004D6AB6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067902248E242004D6AB6 /* HomeModel.swift */; };
+		032067A32248E243004D6AB6 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067912248E242004D6AB6 /* HomeRouter.swift */; };
+		032067A42248E243004D6AB6 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067912248E242004D6AB6 /* HomeRouter.swift */; };
+		032067A52248E243004D6AB6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067922248E242004D6AB6 /* HomePresenter.swift */; };
+		032067A62248E243004D6AB6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067922248E242004D6AB6 /* HomePresenter.swift */; };
+		032067A72248E84F004D6AB6 /* SuperHeroMarvelLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067772248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib */; };
+		032067A82248E858004D6AB6 /* BaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067742248DFF5004D6AB6 /* BaseNavigationBar.swift */; };
+		032067A92248E85C004D6AB6 /* BaseNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067752248DFF5004D6AB6 /* BaseNavigationBar.xib */; };
+		032067AB2248EE4A004D6AB6 /* DefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067AA2248EE4A004D6AB6 /* DefaultManager.swift */; };
+		032067AC2248EE4A004D6AB6 /* DefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067AA2248EE4A004D6AB6 /* DefaultManager.swift */; };
+		032067AE2248F012004D6AB6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067AD2248F011004D6AB6 /* Date+Extension.swift */; };
+		032067AF2248F012004D6AB6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067AD2248F011004D6AB6 /* Date+Extension.swift */; };
+		032067B12248F04A004D6AB6 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B02248F04A004D6AB6 /* NSObject+Extension.swift */; };
+		032067B22248F04A004D6AB6 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B02248F04A004D6AB6 /* NSObject+Extension.swift */; };
 		0345C6AF2248D8D1006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
 		0345C6B12248D8D1006C739F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6B02248D8D1006C739F /* Foundation.framework */; };
-		0345C6B42248D8D1006C739F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345C6B32248D8D1006C739F /* AppDelegate.swift */; };
-		0345C6B62248D8D4006C739F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0345C6B52248D8D4006C739F /* Assets.xcassets */; };
-		0345C6B92248D8D4006C739F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0345C6B72248D8D4006C739F /* LaunchScreen.storyboard */; };
+		0345C6C42248DA8A006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
+		0345C6C52248DA8A006C739F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6B02248D8D1006C739F /* Foundation.framework */; };
+		06FEC81F1E0CDDC181D2FBB5 /* Pods_SuperHeroMarvelDEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84BE3CB60B821F9A670842F /* Pods_SuperHeroMarvelDEV.framework */; };
+		9760FB1A791D6006460D2F5A /* Pods_SuperHeroMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BEBE4F409542CBB5E35708 /* Pods_SuperHeroMarvel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0345C6AB2248D8D1006C739F /* SuperHeroMarvelLOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvelLOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032067082248DBA0004D6AB6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0320670C2248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SuperHeroMarvelPRO.plist; sourceTree = "<group>"; };
+		0320670E2248DBAD004D6AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032067102248DBAD004D6AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032067122248DBAD004D6AB6 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		032067132248DBAD004D6AB6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		032067182248DBAD004D6AB6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		032067192248DBAD004D6AB6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		0320671A2248DBAD004D6AB6 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		0320671D2248DBAD004D6AB6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0320671E2248DBAD004D6AB6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0320671F2248DBAD004D6AB6 /* UINavigationBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extension.swift"; sourceTree = "<group>"; };
+		032067202248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SuperHeroMarvelDEV.plist; sourceTree = "<group>"; };
+		032067232248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroMarvelEnums.swift; sourceTree = "<group>"; };
+		032067252248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroMarvelUtils.swift; sourceTree = "<group>"; };
+		032067272248DBAD004D6AB6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		032067282248DBAD004D6AB6 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		032067292248DBAD004D6AB6 /* BaseAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAssembly.swift; sourceTree = "<group>"; };
+		0320672A2248DBAD004D6AB6 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		0320672B2248DBAD004D6AB6 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		0320672C2248DBAD004D6AB6 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0320672E2248DBAD004D6AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0320676C2248DD8D004D6AB6 /* BaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
+		032067742248DFF5004D6AB6 /* BaseNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationBar.swift; sourceTree = "<group>"; };
+		032067752248DFF5004D6AB6 /* BaseNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseNavigationBar.xib; sourceTree = "<group>"; };
+		032067772248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperHeroMarvelLoader.xib; sourceTree = "<group>"; };
+		032067782248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroMarvelLoader.swift; sourceTree = "<group>"; };
+		0320677F2248E06F004D6AB6 /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		032067882248E242004D6AB6 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		032067892248E242004D6AB6 /* HomeView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView_iPad.xib; sourceTree = "<group>"; };
+		0320678A2248E242004D6AB6 /* HomeAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
+		0320678B2248E242004D6AB6 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		0320678C2248E242004D6AB6 /* HomeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		0320678D2248E242004D6AB6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0320678F2248E242004D6AB6 /* HomeModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelEntity.swift; sourceTree = "<group>"; };
+		032067902248E242004D6AB6 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		032067912248E242004D6AB6 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		032067922248E242004D6AB6 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		032067AA2248EE4A004D6AB6 /* DefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultManager.swift; sourceTree = "<group>"; };
+		032067AD2248F011004D6AB6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		032067B02248F04A004D6AB6 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345C6AE2248D8D1006C739F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0345C6B02248D8D1006C739F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0345C6B32248D8D1006C739F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0345C6B52248D8D4006C739F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0345C6B82248D8D4006C739F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0345C6BA2248D8D4006C739F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0345C6CC2248DA8A006C739F /* SuperHeroMarvelDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvelDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244B772AB56127921A16387E /* Pods-SuperHeroMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroMarvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroMarvel/Pods-SuperHeroMarvel.debug.xcconfig"; sourceTree = "<group>"; };
+		394CD4ECA477554215389703 /* Pods-SuperHeroMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroMarvel/Pods-SuperHeroMarvel.release.xcconfig"; sourceTree = "<group>"; };
+		B0CDBCA5A1060A7DFC47D60F /* Pods-SuperHeroMarvelDEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroMarvelDEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroMarvelDEV/Pods-SuperHeroMarvelDEV.release.xcconfig"; sourceTree = "<group>"; };
+		B84BE3CB60B821F9A670842F /* Pods_SuperHeroMarvelDEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroMarvelDEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C903C32CBD05FE11F765400D /* Pods-SuperHeroMarvelDEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroMarvelDEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroMarvelDEV/Pods-SuperHeroMarvelDEV.debug.xcconfig"; sourceTree = "<group>"; };
+		E7BEBE4F409542CBB5E35708 /* Pods_SuperHeroMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,25 +158,190 @@
 			files = (
 				0345C6AF2248D8D1006C739F /* UIKit.framework in Frameworks */,
 				0345C6B12248D8D1006C739F /* Foundation.framework in Frameworks */,
+				9760FB1A791D6006460D2F5A /* Pods_SuperHeroMarvel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0345C6C32248DA8A006C739F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0345C6C42248DA8A006C739F /* UIKit.framework in Frameworks */,
+				0345C6C52248DA8A006C739F /* Foundation.framework in Frameworks */,
+				06FEC81F1E0CDDC181D2FBB5 /* Pods_SuperHeroMarvelDEV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0320670B2248DBAD004D6AB6 /* SuperHeroMarvel */ = {
+			isa = PBXGroup;
+			children = (
+				0320677D2248E041004D6AB6 /* Resources */,
+				032067112248DBAD004D6AB6 /* Extensions */,
+				032067212248DBAD004D6AB6 /* VIPER */,
+				0320672E2248DBAD004D6AB6 /* AppDelegate.swift */,
+				0320670E2248DBAD004D6AB6 /* Assets.xcassets */,
+				0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */,
+				0320670C2248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist */,
+				032067202248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist */,
+			);
+			path = SuperHeroMarvel;
+			sourceTree = "<group>";
+		};
+		032067112248DBAD004D6AB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				032067B02248F04A004D6AB6 /* NSObject+Extension.swift */,
+				032067AD2248F011004D6AB6 /* Date+Extension.swift */,
+				032067122248DBAD004D6AB6 /* UIApplication+Extension.swift */,
+				032067132248DBAD004D6AB6 /* UIImageView+Extension.swift */,
+				032067182248DBAD004D6AB6 /* UIView+Extension.swift */,
+				032067192248DBAD004D6AB6 /* UIImage+Extension.swift */,
+				0320671A2248DBAD004D6AB6 /* UINavigationController+Extension.swift */,
+				0320671D2248DBAD004D6AB6 /* UIViewController+Extension.swift */,
+				0320671E2248DBAD004D6AB6 /* String+Extension.swift */,
+				0320671F2248DBAD004D6AB6 /* UINavigationBar+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		032067212248DBAD004D6AB6 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				032067862248E242004D6AB6 /* Home */,
+				032067222248DBAD004D6AB6 /* Enums */,
+				032067242248DBAD004D6AB6 /* Utils */,
+				032067722248DFC6004D6AB6 /* Components */,
+				032067262248DBAD004D6AB6 /* Base */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		032067222248DBAD004D6AB6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				032067232248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		032067242248DBAD004D6AB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				032067252248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift */,
+				032067AA2248EE4A004D6AB6 /* DefaultManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		032067262248DBAD004D6AB6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0320676C2248DD8D004D6AB6 /* BaseProvider.swift */,
+				032067272248DBAD004D6AB6 /* BaseViewController.swift */,
+				032067282248DBAD004D6AB6 /* BaseInteractor.swift */,
+				032067292248DBAD004D6AB6 /* BaseAssembly.swift */,
+				0320672A2248DBAD004D6AB6 /* BasePresenter.swift */,
+				0320672B2248DBAD004D6AB6 /* BaseRouter.swift */,
+				0320672C2248DBAD004D6AB6 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		032067722248DFC6004D6AB6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				032067762248DFF5004D6AB6 /* Loader */,
+				032067732248DFF5004D6AB6 /* NavigationBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		032067732248DFF5004D6AB6 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				032067742248DFF5004D6AB6 /* BaseNavigationBar.swift */,
+				032067752248DFF5004D6AB6 /* BaseNavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		032067762248DFF5004D6AB6 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				032067772248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib */,
+				032067782248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		0320677D2248E041004D6AB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0320677E2248E04B004D6AB6 /* Json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0320677E2248E04B004D6AB6 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				0320677F2248E06F004D6AB6 /* loader.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		032067862248E242004D6AB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0320678A2248E242004D6AB6 /* HomeAssembly.swift */,
+				0320678C2248E242004D6AB6 /* HomeProvider.swift */,
+				0320678B2248E242004D6AB6 /* HomeInteractor.swift */,
+				032067912248E242004D6AB6 /* HomeRouter.swift */,
+				032067922248E242004D6AB6 /* HomePresenter.swift */,
+				0320678D2248E242004D6AB6 /* HomeView.swift */,
+				032067872248E242004D6AB6 /* XIB */,
+				0320678E2248E242004D6AB6 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		032067872248E242004D6AB6 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				032067882248E242004D6AB6 /* HomeView.xib */,
+				032067892248E242004D6AB6 /* HomeView_iPad.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0320678E2248E242004D6AB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0320678F2248E242004D6AB6 /* HomeModelEntity.swift */,
+				032067902248E242004D6AB6 /* HomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0345C6A22248D8D1006C739F = {
 			isa = PBXGroup;
 			children = (
-				0345C6B22248D8D1006C739F /* SuperHeroMarvel */,
+				0320670B2248DBAD004D6AB6 /* SuperHeroMarvel */,
+				032067082248DBA0004D6AB6 /* Podfile */,
 				0345C6AD2248D8D1006C739F /* Frameworks */,
 				0345C6AC2248D8D1006C739F /* Products */,
+				CD1A7164CA7952FA1F1BC7C3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		0345C6AC2248D8D1006C739F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0345C6AB2248D8D1006C739F /* SuperHeroMarvelLOC.app */,
+				0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */,
+				0345C6CC2248DA8A006C739F /* SuperHeroMarvelDEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,39 +351,64 @@
 			children = (
 				0345C6AE2248D8D1006C739F /* UIKit.framework */,
 				0345C6B02248D8D1006C739F /* Foundation.framework */,
+				E7BEBE4F409542CBB5E35708 /* Pods_SuperHeroMarvel.framework */,
+				B84BE3CB60B821F9A670842F /* Pods_SuperHeroMarvelDEV.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0345C6B22248D8D1006C739F /* SuperHeroMarvel */ = {
+		CD1A7164CA7952FA1F1BC7C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0345C6B32248D8D1006C739F /* AppDelegate.swift */,
-				0345C6B52248D8D4006C739F /* Assets.xcassets */,
-				0345C6B72248D8D4006C739F /* LaunchScreen.storyboard */,
-				0345C6BA2248D8D4006C739F /* Info.plist */,
+				244B772AB56127921A16387E /* Pods-SuperHeroMarvel.debug.xcconfig */,
+				394CD4ECA477554215389703 /* Pods-SuperHeroMarvel.release.xcconfig */,
+				C903C32CBD05FE11F765400D /* Pods-SuperHeroMarvelDEV.debug.xcconfig */,
+				B0CDBCA5A1060A7DFC47D60F /* Pods-SuperHeroMarvelDEV.release.xcconfig */,
 			);
-			path = SuperHeroMarvel;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0345C6AA2248D8D1006C739F /* SuperHeroMarvelLOC */ = {
+		0345C6AA2248D8D1006C739F /* SuperHeroMarvel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0345C6BD2248D8D4006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvelLOC" */;
+			buildConfigurationList = 0345C6BD2248D8D4006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvel" */;
 			buildPhases = (
+				4C43BF98A1761C49F5076001 /* [CP] Check Pods Manifest.lock */,
+				0320676F2248DF36004D6AB6 /* swfitLint */,
 				0345C6A72248D8D1006C739F /* Sources */,
 				0345C6A82248D8D1006C739F /* Frameworks */,
 				0345C6A92248D8D1006C739F /* Resources */,
+				50B0C67A0CBF2CE4B4BD5605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SuperHeroMarvelLOC;
+			name = SuperHeroMarvel;
 			productName = SuperHeroMarvelLOC;
-			productReference = 0345C6AB2248D8D1006C739F /* SuperHeroMarvelLOC.app */;
+			productReference = 0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0345C6C02248DA8A006C739F /* SuperHeroMarvelDEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0345C6C92248DA8A006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvelDEV" */;
+			buildPhases = (
+				A4AD5C3A69FF6ECD894CA197 /* [CP] Check Pods Manifest.lock */,
+				032067702248DF47004D6AB6 /* SwiftLint */,
+				0345C6C12248DA8A006C739F /* Sources */,
+				0345C6C32248DA8A006C739F /* Frameworks */,
+				0345C6C62248DA8A006C739F /* Resources */,
+				AD3207C9456D82E0EB8692CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperHeroMarvelDEV;
+			productName = SuperHeroMarvelLOC;
+			productReference = 0345C6CC2248DA8A006C739F /* SuperHeroMarvelDEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,6 +423,10 @@
 				TargetAttributes = {
 					0345C6AA2248D8D1006C739F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					0345C6C02248DA8A006C739F = {
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,7 +443,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0345C6AA2248D8D1006C739F /* SuperHeroMarvelLOC */,
+				0345C6AA2248D8D1006C739F /* SuperHeroMarvel */,
+				0345C6C02248DA8A006C739F /* SuperHeroMarvelDEV */,
 			);
 		};
 /* End PBXProject section */
@@ -132,29 +454,253 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0345C6B62248D8D4006C739F /* Assets.xcassets in Resources */,
-				0345C6B92248D8D4006C739F /* LaunchScreen.storyboard in Resources */,
+				032067092248DBA0004D6AB6 /* Podfile in Resources */,
+				032067952248E243004D6AB6 /* HomeView_iPad.xib in Resources */,
+				032067342248DBAD004D6AB6 /* Assets.xcassets in Resources */,
+				032067932248E243004D6AB6 /* HomeView.xib in Resources */,
+				032067802248E06F004D6AB6 /* loader.json in Resources */,
+				0320677A2248DFF5004D6AB6 /* BaseNavigationBar.xib in Resources */,
+				032067362248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */,
+				032067302248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */,
+				032067542248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist in Resources */,
+				0320677B2248DFF5004D6AB6 /* SuperHeroMarvelLoader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0345C6C62248DA8A006C739F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032067A92248E85C004D6AB6 /* BaseNavigationBar.xib in Resources */,
+				032067942248E243004D6AB6 /* HomeView.xib in Resources */,
+				032067812248E072004D6AB6 /* loader.json in Resources */,
+				0320670A2248DBA0004D6AB6 /* Podfile in Resources */,
+				032067962248E243004D6AB6 /* HomeView_iPad.xib in Resources */,
+				032067352248DBAD004D6AB6 /* Assets.xcassets in Resources */,
+				032067372248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */,
+				032067312248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */,
+				032067552248DBAD004D6AB6 /* SuperHeroMarvelDEV.plist in Resources */,
+				032067A72248E84F004D6AB6 /* SuperHeroMarvelLoader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0320676F2248DF36004D6AB6 /* swfitLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swfitLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		032067702248DF47004D6AB6 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		4C43BF98A1761C49F5076001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperHeroMarvel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B0C67A0CBF2CE4B4BD5605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroMarvel/Pods-SuperHeroMarvel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroMarvel/Pods-SuperHeroMarvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4AD5C3A69FF6ECD894CA197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperHeroMarvelDEV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3207C9456D82E0EB8692CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroMarvelDEV/Pods-SuperHeroMarvelDEV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroMarvelDEV/Pods-SuperHeroMarvelDEV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0345C6A72248D8D1006C739F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0345C6B42248D8D1006C739F /* AppDelegate.swift in Sources */,
+				0320674E2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */,
+				032067602248DBAD004D6AB6 /* BasePresenter.swift in Sources */,
+				0320679D2248E243004D6AB6 /* HomeView.swift in Sources */,
+				032067AB2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
+				032067A12248E243004D6AB6 /* HomeModel.swift in Sources */,
+				032067AE2248F012004D6AB6 /* Date+Extension.swift in Sources */,
+				032067442248DBAD004D6AB6 /* UIView+Extension.swift in Sources */,
+				032067522248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
+				032067462248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */,
+				032067A32248E243004D6AB6 /* HomeRouter.swift in Sources */,
+				032067A52248E243004D6AB6 /* HomePresenter.swift in Sources */,
+				0320675A2248DBAD004D6AB6 /* BaseViewController.swift in Sources */,
+				032067972248E243004D6AB6 /* HomeAssembly.swift in Sources */,
+				032067642248DBAD004D6AB6 /* BaseView.swift in Sources */,
+				0320675E2248DBAD004D6AB6 /* BaseAssembly.swift in Sources */,
+				0320676D2248DD8D004D6AB6 /* BaseProvider.swift in Sources */,
+				032067502248DBAD004D6AB6 /* String+Extension.swift in Sources */,
+				0320675C2248DBAD004D6AB6 /* BaseInteractor.swift in Sources */,
+				032067582248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift in Sources */,
+				0320673A2248DBAD004D6AB6 /* UIImageView+Extension.swift in Sources */,
+				032067622248DBAD004D6AB6 /* BaseRouter.swift in Sources */,
+				032067562248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift in Sources */,
+				032067382248DBAD004D6AB6 /* UIApplication+Extension.swift in Sources */,
+				0320677C2248DFF5004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */,
+				032067482248DBAD004D6AB6 /* UINavigationController+Extension.swift in Sources */,
+				032067792248DFF5004D6AB6 /* BaseNavigationBar.swift in Sources */,
+				032067B12248F04A004D6AB6 /* NSObject+Extension.swift in Sources */,
+				0320679B2248E243004D6AB6 /* HomeProvider.swift in Sources */,
+				032067682248DBAD004D6AB6 /* AppDelegate.swift in Sources */,
+				0320679F2248E243004D6AB6 /* HomeModelEntity.swift in Sources */,
+				032067992248E243004D6AB6 /* HomeInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0345C6C12248DA8A006C739F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0320674F2248DBAD004D6AB6 /* UIViewController+Extension.swift in Sources */,
+				032067612248DBAD004D6AB6 /* BasePresenter.swift in Sources */,
+				032067452248DBAD004D6AB6 /* UIView+Extension.swift in Sources */,
+				032067AC2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
+				0320679C2248E243004D6AB6 /* HomeProvider.swift in Sources */,
+				032067AF2248F012004D6AB6 /* Date+Extension.swift in Sources */,
+				0320679A2248E243004D6AB6 /* HomeInteractor.swift in Sources */,
+				032067532248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
+				032067822248E07A004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */,
+				032067472248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */,
+				0320675B2248DBAD004D6AB6 /* BaseViewController.swift in Sources */,
+				0320679E2248E243004D6AB6 /* HomeView.swift in Sources */,
+				032067A02248E243004D6AB6 /* HomeModelEntity.swift in Sources */,
+				032067652248DBAD004D6AB6 /* BaseView.swift in Sources */,
+				0320675F2248DBAD004D6AB6 /* BaseAssembly.swift in Sources */,
+				0320676E2248DD8D004D6AB6 /* BaseProvider.swift in Sources */,
+				032067512248DBAD004D6AB6 /* String+Extension.swift in Sources */,
+				032067982248E243004D6AB6 /* HomeAssembly.swift in Sources */,
+				032067A62248E243004D6AB6 /* HomePresenter.swift in Sources */,
+				032067A42248E243004D6AB6 /* HomeRouter.swift in Sources */,
+				0320675D2248DBAD004D6AB6 /* BaseInteractor.swift in Sources */,
+				032067592248DBAD004D6AB6 /* SuperHeroMarvelUtils.swift in Sources */,
+				032067A22248E243004D6AB6 /* HomeModel.swift in Sources */,
+				0320673B2248DBAD004D6AB6 /* UIImageView+Extension.swift in Sources */,
+				032067632248DBAD004D6AB6 /* BaseRouter.swift in Sources */,
+				032067572248DBAD004D6AB6 /* SuperHeroMarvelEnums.swift in Sources */,
+				032067B22248F04A004D6AB6 /* NSObject+Extension.swift in Sources */,
+				032067392248DBAD004D6AB6 /* UIApplication+Extension.swift in Sources */,
+				032067492248DBAD004D6AB6 /* UINavigationController+Extension.swift in Sources */,
+				032067A82248E858004D6AB6 /* BaseNavigationBar.swift in Sources */,
+				032067692248DBAD004D6AB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0345C6B72248D8D4006C739F /* LaunchScreen.storyboard */ = {
+		0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0345C6B82248D8D4006C739F /* Base */,
+				032067102248DBAD004D6AB6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,21 +826,25 @@
 		};
 		0345C6BE2248D8D4006C739F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244B772AB56127921A16387E /* Pods-SuperHeroMarvel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AV4AUA4L2;
+				DEVELOPMENT_TEAM = LZF7U2LEB4;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = SuperHeroMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperHeroMarvel/SuperHeroMarvelPRO.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = "\"-D\" \"LOC\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jjmontes.SuperHeroMarvel;
+				OTHER_SWIFT_FLAGS = "\"-D\" \"PRO\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmontes.SuperHero.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,19 +852,73 @@
 		};
 		0345C6BF2248D8D4006C739F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394CD4ECA477554215389703 /* Pods-SuperHeroMarvel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9AV4AUA4L2;
+				DEVELOPMENT_TEAM = LZF7U2LEB4;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = SuperHeroMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperHeroMarvel/SuperHeroMarvelPRO.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = "\"-D\" \"LOC\"";
+				OTHER_SWIFT_FLAGS = "\"-D\" \"PRO\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmontes.SuperHero.Marvel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0345C6CA2248DA8A006C739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C903C32CBD05FE11F765400D /* Pods-SuperHeroMarvelDEV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AV4AUA4L2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperHeroMarvel/SuperHeroMarvelDEV.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "\"-D\" \"DEV\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjmontes.SuperHeroMarvel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0345C6CB2248DA8A006C739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CDBCA5A1060A7DFC47D60F /* Pods-SuperHeroMarvelDEV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AV4AUA4L2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperHeroMarvel/SuperHeroMarvelDEV.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "\"-D\" \"DEV\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjmontes.SuperHeroMarvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -334,11 +938,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0345C6BD2248D8D4006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvelLOC" */ = {
+		0345C6BD2248D8D4006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0345C6BE2248D8D4006C739F /* Debug */,
 				0345C6BF2248D8D4006C739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0345C6C92248DA8A006C739F /* Build configuration list for PBXNativeTarget "SuperHeroMarvelDEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345C6CA2248DA8A006C739F /* Debug */,
+				0345C6CB2248DA8A006C739F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
