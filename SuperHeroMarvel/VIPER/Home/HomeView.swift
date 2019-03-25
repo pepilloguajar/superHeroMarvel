@@ -9,19 +9,63 @@
 import Foundation
 import UIKit
 
-class HomeView: BaseView<HomePresenterProtocol> {
+class HomeView: BaseView<HomePresenterProtocol>, UITableViewDelegate, UITableViewDataSource {
     // MARK: IBOutlets declaration of all controls
-    
-    // MARK: Fileprivate Variables all variables must be for internal use, we should only have access to controls from the presenter
+    @IBOutlet weak var navigationBar: BaseNavigationBar!
+    @IBOutlet weak var tableViewHero: UITableView!
     
     // MARK: UIViewController Functions
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.customizeNavigationBar()
+        
+        self.tableViewHero.delegate = self
+        self.tableViewHero.dataSource = self
+        self.tableViewHero.register(UINib(nibName: "SuperHeroTableViewCell", bundle: nil), forCellReuseIdentifier: "SuperHeroTableViewCell")
+    }
+
+    // MARK: Private Functions
+    
+    // Configuramos la navigation bar
+    func customizeNavigationBar() {
+        self.navigationBar.viewModel = BaseNavigationBarModel(title: "Super Hero Marvel",
+                                                              leftButton: .none,
+                                                              rightButton: .none,
+                                                              showViewBottomLine: true,
+                                                              showLogoImage: false)
+        
+        self.navigationBar.delegate = self
+        self.navigationBar.setWhiteStyle()
     }
     
-    // MARK: IBActions declaration of all the controls
+    func reloadView() {
+        self.tableViewHero.reloadData()
+    }
     
-    // MARK: Private Functions
+    // MARK: TableView config
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.presenter?.modelHeroes.count ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = self.tableViewHero.dequeueReusableCell(withIdentifier: "SuperHeroTableViewCell", for: indexPath) as? SuperHeroTableViewCell ?? SuperHeroTableViewCell()
+        
+        guard let modelRow = self.presenter?.modelHeroes[indexPath.row] else { return cell }
+        
+        cell.configureCell(superHero: modelRow)
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 260
+    }
 }
 
 // MARK: Extensions declaration of all extension and implementations of protocols
@@ -54,4 +98,16 @@ extension HomeView: BaseViewControllerRefresh {
     }
     
     func backToBackGroundRefresh() {}
+}
+
+extension HomeView: BaseNavigationBarDelegate {
+    func leftButtonAction() {
+        
+    }
+    
+    func rightButtonAction() {
+        // No se requiere funcionamiento
+        print("Funcionalidad en desarrollo.......")
+    }
+    
 }

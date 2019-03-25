@@ -18,6 +18,7 @@ class SuperHero {
     var power: String?
     var abilities: String?
     var groups: [String?]?
+    var photoData: Data?
     
     init() {}
     
@@ -30,6 +31,7 @@ class SuperHero {
         self.power = superHeroEntity.power
         self.abilities = superHeroEntity.abilities
         self.groups = superHeroEntity.groups?.components(separatedBy: ",")
+        self.photoData = nil
         
     }
     

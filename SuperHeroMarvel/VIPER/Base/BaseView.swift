@@ -60,4 +60,22 @@ class BaseView<Presenter: Any>: BaseViewController {
         
         self.isPush = false
     }
+    
+    func showAlertWith(title: String, message: String, actions: NSArray?) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        
+        if actions == nil {
+            alert.addAction(UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default, handler: nil))
+        } else {
+            for action in actions! {
+                alert.addAction((action as? UIAlertAction) ?? UIAlertAction())
+            }
+        }
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showAlertWithError(title: String, message: String, actions: NSArray?) {
+        self.showAlertWith(title: title, message: message, actions: actions)
+    }
 }

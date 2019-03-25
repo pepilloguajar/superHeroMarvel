@@ -93,6 +93,10 @@
 		032067B52248F1ED004D6AB6 /* SuperHeroEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */; };
 		032067B72248F20C004D6AB6 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B62248F20C004D6AB6 /* SuperHero.swift */; };
 		032067B82248F20C004D6AB6 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067B62248F20C004D6AB6 /* SuperHero.swift */; };
+		032067BC2248FF65004D6AB6 /* SuperHeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067BA2248FF65004D6AB6 /* SuperHeroTableViewCell.swift */; };
+		032067BD2248FF65004D6AB6 /* SuperHeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032067BA2248FF65004D6AB6 /* SuperHeroTableViewCell.swift */; };
+		032067BE2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067BB2248FF65004D6AB6 /* SuperHeroTableViewCell.xib */; };
+		032067BF2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032067BB2248FF65004D6AB6 /* SuperHeroTableViewCell.xib */; };
 		0345C6AF2248D8D1006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
 		0345C6B12248D8D1006C739F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6B02248D8D1006C739F /* Foundation.framework */; };
 		0345C6C42248DA8A006C739F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345C6AE2248D8D1006C739F /* UIKit.framework */; };
@@ -145,6 +149,8 @@
 		032067B02248F04A004D6AB6 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		032067B32248F1ED004D6AB6 /* SuperHeroEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroEntity.swift; sourceTree = "<group>"; };
 		032067B62248F20C004D6AB6 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		032067BA2248FF65004D6AB6 /* SuperHeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroTableViewCell.swift; sourceTree = "<group>"; };
+		032067BB2248FF65004D6AB6 /* SuperHeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroTableViewCell.xib; sourceTree = "<group>"; };
 		0345C6AB2248D8D1006C739F /* SuperHeroMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345C6AE2248D8D1006C739F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0345C6B02248D8D1006C739F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -338,6 +344,8 @@
 		032067B92248F8C1004D6AB6 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				032067BA2248FF65004D6AB6 /* SuperHeroTableViewCell.swift */,
+				032067BB2248FF65004D6AB6 /* SuperHeroTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -475,6 +483,7 @@
 				032067342248DBAD004D6AB6 /* Assets.xcassets in Resources */,
 				032067932248E243004D6AB6 /* HomeView.xib in Resources */,
 				032067802248E06F004D6AB6 /* loader.json in Resources */,
+				032067BE2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */,
 				0320677A2248DFF5004D6AB6 /* BaseNavigationBar.xib in Resources */,
 				032067362248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */,
 				032067302248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */,
@@ -492,6 +501,7 @@
 				032067812248E072004D6AB6 /* loader.json in Resources */,
 				0320670A2248DBA0004D6AB6 /* Podfile in Resources */,
 				032067962248E243004D6AB6 /* HomeView_iPad.xib in Resources */,
+				032067BF2248FF65004D6AB6 /* SuperHeroTableViewCell.xib in Resources */,
 				032067352248DBAD004D6AB6 /* Assets.xcassets in Resources */,
 				032067372248DBAD004D6AB6 /* LaunchScreen.storyboard in Resources */,
 				032067312248DBAD004D6AB6 /* SuperHeroMarvelPRO.plist in Resources */,
@@ -645,6 +655,7 @@
 				032067AB2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
 				032067A12248E243004D6AB6 /* HomeModel.swift in Sources */,
 				032067AE2248F012004D6AB6 /* Date+Extension.swift in Sources */,
+				032067BC2248FF65004D6AB6 /* SuperHeroTableViewCell.swift in Sources */,
 				032067442248DBAD004D6AB6 /* UIView+Extension.swift in Sources */,
 				032067522248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
 				032067462248DBAD004D6AB6 /* UIImage+Extension.swift in Sources */,
@@ -685,6 +696,7 @@
 				032067AC2248EE4A004D6AB6 /* DefaultManager.swift in Sources */,
 				0320679C2248E243004D6AB6 /* HomeProvider.swift in Sources */,
 				032067AF2248F012004D6AB6 /* Date+Extension.swift in Sources */,
+				032067BD2248FF65004D6AB6 /* SuperHeroTableViewCell.swift in Sources */,
 				0320679A2248E243004D6AB6 /* HomeInteractor.swift in Sources */,
 				032067532248DBAD004D6AB6 /* UINavigationBar+Extension.swift in Sources */,
 				032067822248E07A004D6AB6 /* SuperHeroMarvelLoader.swift in Sources */,
