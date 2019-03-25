@@ -224,7 +224,7 @@
 			children = (
 				0320677D2248E041004D6AB6 /* Resources */,
 				032067112248DBAD004D6AB6 /* Extensions */,
-				032067212248DBAD004D6AB6 /* VIPER */,
+				032067212248DBAD004D6AB6 /* Proyect */,
 				0320672E2248DBAD004D6AB6 /* AppDelegate.swift */,
 				0320670E2248DBAD004D6AB6 /* Assets.xcassets */,
 				0320670F2248DBAD004D6AB6 /* LaunchScreen.storyboard */,
@@ -252,7 +252,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		032067212248DBAD004D6AB6 /* VIPER */ = {
+		032067212248DBAD004D6AB6 /* Proyect */ = {
 			isa = PBXGroup;
 			children = (
 				032067C322490FD0004D6AB6 /* HeroDetail */,
@@ -262,7 +262,7 @@
 				032067722248DFC6004D6AB6 /* Components */,
 				032067262248DBAD004D6AB6 /* Base */,
 			);
-			path = VIPER;
+			path = Proyect;
 			sourceTree = "<group>";
 		};
 		032067222248DBAD004D6AB6 /* Enums */ = {
